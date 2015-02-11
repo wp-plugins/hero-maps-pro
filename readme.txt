@@ -33,4 +33,4 @@ The Hero Maps plugin allows for quick and easy Google Maps addition to your Word
 == Changelog ==
 
 = 2.0.1 =
-* WordPress submission
+* Released
