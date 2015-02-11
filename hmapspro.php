@@ -54,15 +54,15 @@
 	class heroplugin_hmapspro{
 
 		#PLUGIN CONFIG
-		private $plugin_name = 'hero-maps-pro';
-		private $plugin_ajax_prefix = 'hmapspro_';
+		private $plugin_name = 'hmapspro';
+		private $plugin_dir_name = 'hero-maps-pro';
 		private $plugin_friendly_name = 'Hero Maps Pro';
 		private $plugin_friendly_description = 'Easily create your own Google Maps with a simple drag and drop interface';
 		private $plugin_version = '2.0.1';
 		private $plugin_prefix = 'hmapspro_';
 		private $first_release = '2014-11-24';
 		private $last_update = '2015-02-09';
-		private $api_version = '2.0.0';
+		private $api_version = '2.0.1';
 		
 		#CLASS VARS
 		private $plugin_dir;
@@ -77,7 +77,7 @@
 			//define plugin vars
 			$this->plugin_dir = dirname(__FILE__);
 			$this->plugin_basename = plugin_basename(__FILE__);
-			$this->plugin_url = plugins_url($this->plugin_name) .'/';
+			$this->plugin_url = plugins_url($this->plugin_dir_name) .'/';
 			
 			//instantiate helper class
 			global $hmapspro_helper;
@@ -122,7 +122,7 @@
 			add_action('wp_ajax_hmapspro_process_custom_markers', array(&$marker_processor, 'process_custom_markers')); //admin: process custom markers
 			
 			//instantiate registrations class (register all plugin-related ajax hooks)
-			new hmapspro_registration($this->plugin_ajax_prefix, $backend, $frontend);
+			new hmapspro_registration($this->plugin_prefix, $backend, $frontend);
 			
 			//configure auto-generation class and hooks (used for development purposes)
 			$autogenerate = new hmapspro_autogenerate($this->plugin_dir);
