@@ -15,7 +15,7 @@ The Hero Maps plugin allows for quick and easy Google Maps addition to your Word
 Hero Maps will resize dynamically to fit any screen. We give you the ability to create fixed size or full width maps.
 
 = Markers =
-We have already added 18 marker icons, available in 13 great colours with more colours and markers available soon. If required, we have added support for custom marker upload if you require more flexibility.
+We have already added 18 marker icons, available in 13 great colours with more colours and markers available soon. We have also added support for your custom markers if you require more flexibility.
 
 = Features Include =
 * Fully responsive
@@ -41,16 +41,16 @@ We have already added 18 marker icons, available in 13 great colours with more c
 = From WordPress.org =
 
 1. Download 'Hero Maps Pro'.
-2. Upload the 'hero-maps-pro' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
+2. Upload the 'hero-maps-pro' directory to your '/wp-content/plugins/' directory.
 3. Activate 'Hero Maps Pro' from your Plugins page.
 
 = Usage =
-1. After creating a map, copy the shortcode and place it into your theme
+After creating a map, copy the generated shortcode from the Hero Maps Dashboard and place it into any location in your theme (posts, pages, etc...)
 
 == Screenshots ==
 
 1. **WYSIWYG** - Google Maps Customization Dashboard.
-2. **Search** - Easily search for location on the map.
+2. **Search** - Easily search for any location on the map.
 3. **Marker Packs** - Lots of free markers and colours to choose from.
 4. **Custom Markers** - Upload your own markers for use on the map.
 5. **Marker Offset** - The ability to accurately position any shape marker on the map.
