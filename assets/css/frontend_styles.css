@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* FRONT-END STYLES */
+.hmapspro_map_container{
+}
+.hmapspro_map_container img{
+	max-width:none;
+}
+.hmapspro_map_container .gm-style-iw{
+	max-width:70% !important;
+}
+.hmapspro_map_container .hmapspro_info_window{
+	min-width:150px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	line-height:15px;
+	color:#000;
+}
+.hmapspro_map_container .hmapspro_info_window h3{
+	font-size:16px;
+	line-height:22px;
+	margin:0;
+	padding-bottom:8px;
+}
+.hmapspro_map_container .hmapspro_info_window p{
+	color:#999;
+}
+.hmapspro_map_container .hmapspro_info_window a{
+	text-decoration:none;
+}
+.hmapspro_map_container .hmapspro_info_window a:hover{
+	text-decoration:underline;
+}
