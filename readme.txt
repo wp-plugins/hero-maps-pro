@@ -12,18 +12,18 @@ Easily create your own Google Maps with extensive configuration options and a si
 The Hero Maps plugin allows for quick and easy Google Maps addition to your WordPress website. It offers extensive configuration options, the ability to aggregate all your markers in one map via Marker Geo Mashup, and provides a simple drag-and-drop interface for marker generation.
 
 = Fully Responsive =
-Will resize dynamically on any screen. We give you the ability to create fixed size or full width maps.
+Hero Maps will resize dynamically to fit any screen. We give you the ability to create fixed size or full width maps.
 
 = Markers =
-We have 18 marker icons, available in 13 great colours or, upload and use your own markers if you feel you need more flexibility. More colours and markers will be available soon.
+We have already added 18 marker icons, available in 13 great colours with more colours and markers available soon. If required, we have added support for custom marker upload if you require more flexibility.
 
 = Features Include =
 * Fully responsive
 * Easy to use
-* Custom markers
+* Custom markers support
 * Cross browser compatible
 * Map theme customization
-* Multiple maps
+* Multiple maps and markers
 * Developer integration support
 
 [Demo](http://herodev.co.za/plug/wp/demo/map/)<br />
