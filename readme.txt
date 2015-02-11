@@ -33,6 +33,14 @@ The Hero Maps plugin allows for quick and easy Google Maps addition to your Word
 = Usage =
 1. After creating a map, copy the shortcode and place it into your theme
 
+== Screenshots ==
+
+1. **WYSIWYG** - Google Maps Customization Dashboard.
+2. **Search** - Easily search for location on the map.
+3. **Marker Packs** - Lots of free markers and colours to choose from.
+4. **Custom Markers** - Upload your own markers for use on the map.
+5. **Marker Offset** - The ability to accurately position any shape marker on the map.
+
 == Changelog ==
 
 = 2.0.1 =
