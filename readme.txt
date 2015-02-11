@@ -12,9 +12,9 @@ Easily create your own Google Maps with a simple drag and drop interface
 
 The Hero Maps plugin allows for quick and easy Google Maps addition to your WordPress website. It offers extensive configuration options, the ability to aggregate all your markers in one map via Marker Geo Mashup, and provides a simple drag-and-drop interface for marker generation.
 
-<a href="http://herodev.co.za/plug/wp/document/maps-documentation/?pid=35" target="_blank">Documentation</a><br />
-<a href="http://herodev.co.za/plug/wp/demo/map/" target="_blank">Demo</a><br />
-<a href="http://herodev.co.za/plug/wp/" target="_blank">heroplugins.com</a>
+[Documentation](http://herodev.co.za/plug/wp/document/maps-documentation/?pid=35)
+[Demo](http://herodev.co.za/plug/wp/demo/map/)
+[heroplugins.com](http://herodev.co.za/plug/wp/)
 
 == Installation ==
 
