@@ -41,7 +41,7 @@ We have 18 marker icons, available in 13 great colours or, upload and use your o
 = From WordPress.org =
 
 1. Download 'Hero Maps Pro'.
-2. Upload the 'Hero Maps Pro' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
+2. Upload the 'hero-maps-pro' directory to your '/wp-content/plugins/' directory, using your favorite method (ftp, sftp, scp, etc...)
 3. Activate 'Hero Maps Pro' from your Plugins page.
 
 = Usage =
