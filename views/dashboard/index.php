@@ -3,7 +3,7 @@
 <!--BEGIN: dashboard-->
 <div class="hero_top_dashboard">
     <div class="hero_dashboard_intro">
-        <div class="hero_dashboard_logo" onclick="window.open('http://herodev.co.za/plug/wp/plugin/hero-maps/');"><img src="<?php echo $_GET['p']; ?>assets/images/admin/plugin_logo.png" /></div>
+        <div class="hero_dashboard_logo" onclick="window.open('http://heroplugins.com/plugin/hero-maps/');"><img src="<?php echo $_GET['p']; ?>assets/images/admin/plugin_logo.png" /></div>
     </div>
 </div>
 <div class="hero_top_version">
