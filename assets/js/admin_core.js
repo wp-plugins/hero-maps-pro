@@ -219,7 +219,7 @@ function load_core_view(key, id, title, viewpath, json, callback, header, show_s
 			jQuery('#'+ id).addClass('hero_main_active');
 			jQuery('.hero_sub ul li').removeClass('active_sidebar_elem');
 			//load core
-			jQuery('.hero_admin').load(plugin_url +'/views/'+ viewpath +'index.php?p='+ plugin_url +'&v='+ plugin_url +'views/'+ viewpath, function(){
+			jQuery('.hero_admin').load(core_view_path +'views/'+ viewpath +'index.php?p='+ core_view_path +'&v='+ core_view_path +'views/'+ viewpath, function(){
 				if(typeof callback !== 'undefined' && callback !== 'undefined' && typeof json !== 'undefined' && json !== 'undefined'){
 					eval(""+ callback +"(extract_json_object('"+ json +"'));");
 				}

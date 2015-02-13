@@ -10,6 +10,13 @@
 	var plugin_last_updated = '<?php if(isset($last_updated)){ echo $hmapspro_helper->friendly_date($last_updated); }else{ echo 'Unknown'; } ?>';
 	var ajax_url = '<?php echo admin_url('admin-ajax.php'); ?>';
 	var plugin_url = '<?php echo $plugin_url; ?>';
+	<?php
+		$core_view_path = $plugin_url;
+		if(isset($_SERVER['HTTP_HOST']) && $_SERVER['HTTP_HOST'] != ''){
+			$core_view_path = substr($plugin_url, strpos($plugin_url, $_SERVER['HTTP_HOST']) + strlen($_SERVER['HTTP_HOST']));
+		}
+	?>
+	var core_view_path = '<?php echo $core_view_path; ?>';
 </script>
 <script type="text/javascript" src="<?php echo $plugin_url; ?>/views/sidebar_prepopulation.js"></script>
 <div class="hero_message_status">
