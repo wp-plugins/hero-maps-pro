@@ -15,7 +15,7 @@
             </div>
             <div class="custom_marker_upload_holder"></div>
             <p>
-            	<i class="size_12">Custom marker images must be in <b>PNG</b> format. Image width and height must be between <b>40px</b> and <b>150px</b>.</i>
+            	<i class="size_12">Custom marker images must be in <b>PNG</b> format. Image width and height must be between <b>15px</b> and <b>150px</b>.</i>
             </p>
         </div>
         

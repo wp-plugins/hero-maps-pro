@@ -14,7 +14,7 @@
 			$file_mimes = array(
 				'image/png'
 			);
-			$min_dim = 40;
+			$min_dim = 15;
 			$max_dim = 150;
 			$img_info = getimagesize($_FILES['custom_marker']['tmp_name']);
 			$img_width = $img_info[0];
