@@ -149,25 +149,25 @@ function initialise_map(){
 	map_overlay = new google.maps.OverlayView();
 	map_overlay.draw = function(){};
 	map_overlay.setMap(google_map);
-	//location search
-	var input = document.getElementById('location_search');
-	var autocomplete = new google.maps.places.Autocomplete(input);
-	autocomplete.bindTo('bounds', google_map);
-	google.maps.event.addListener(autocomplete, 'place_changed', function() {
-		var place = autocomplete.getPlace();
-		if(place.geometry.viewport){
-			google_map.fitBounds(place.geometry.viewport);
-		}else{
-			google_map.setCenter(place.geometry.location);
-			google_map.setZoom(17);
-		}
-	});
 	var center;
 	function calculateCenter(){
 		center = google_map.getCenter();
 	}
 	google.maps.event.addDomListener(google_map, 'idle', function(){
 		calculateCenter();
+		//location search
+		var input = document.getElementById('location_search');
+		var autocomplete = new google.maps.places.Autocomplete(input);
+		autocomplete.bindTo('bounds', google_map);
+		google.maps.event.addListener(autocomplete, 'place_changed', function() {
+			var place = autocomplete.getPlace();
+			if(place.geometry.viewport){
+				google_map.fitBounds(place.geometry.viewport);
+			}else{
+				google_map.setCenter(place.geometry.location);
+				google_map.setZoom(17);
+			}
+		});
 	});
 	google.maps.event.addDomListener(window, 'resize', function(){
 		google_map.setCenter(center);
