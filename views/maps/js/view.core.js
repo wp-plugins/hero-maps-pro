@@ -127,7 +127,7 @@ function load_gmap_script(){
 	}else{
 		var script = document.createElement("script");
 		script.type = "text/javascript";
-		script.src = "http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places&callback=initialise_map";
+		script.src = "https://maps.googleapis.com/maps/api/js?sensor=false&libraries=places&callback=initialise_map";
 		document.body.appendChild(script);
 	}
 }
