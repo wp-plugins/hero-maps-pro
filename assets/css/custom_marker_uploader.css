@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/* CUSTOM MARKER UPLOADER */
+body{
+	margin:0;
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+input[type=file]{
+	display:none;
+}
+.hero_form_row_full{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#999;
+	font-size:12px;
+}
+.green_button{
+	background-color:#A7CF7F;
+	color:#FFF;
+}
+.green_button:hover{
+	background-color:#87C04E;
+}
+.hero_button_auto{
+	padding: 7px 10px;
+	text-align: center;
+	cursor: pointer;
+	display: table;
+	float: left;
+	margin: 0 10px 0 0;
+	text-transform: capitalize;
+}
+.rounded_3{
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.size_14{
+	font-size: 14px;
+}
