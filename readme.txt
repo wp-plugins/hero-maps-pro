@@ -26,9 +26,10 @@ We have already added 18 marker icons, available in 13 great colours with more c
 * Multiple maps and markers
 * Developer integration support
 
-[Demo](http://heroplugins.com/demo/map/)<br />
-[Documentation](http://heroplugins.com/document/maps-documentation/?pid=52)<br />
-[heroplugins.com](http://heroplugins.com/)<br />
+= Useful Links =
+* [Demo](http://heroplugins.com/demo/map/)
+* [Documentation](http://heroplugins.com/document/maps-documentation/?pid=52)
+* [heroplugins.com](http://heroplugins.com/)
 
 == Installation ==
 
