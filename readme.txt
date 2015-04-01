@@ -1,4 +1,5 @@
 === Hero Maps Pro ===
+Contributors: HeroPlugins
 Tags: google maps, custom maps, easy maps, maps, responsive, markers, streetview, wp maps, wp google maps, map plugin, latitude, longitude, geocoder, location, shortcode, posts, clustering, marker geo mashup, marker icons, custom markers, custom icons, multiple maps, multiple markers
 Requires at least: 3.3
 Tested up to: 4.1
