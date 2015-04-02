@@ -233,7 +233,10 @@ function manage_map_controls(){
 	google_map.setOptions(map_options);
 	//custom parameter
 	if(map_object.map_developers.javascript_callback){
-		jQuery('#custom_param_container').css('display','block');
+		jQuery('#custom_param_container').css({
+			'display': 'block',
+			'visibility': 'visible'
+		});
 	}
 		
 }
