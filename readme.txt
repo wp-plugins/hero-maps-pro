@@ -3,7 +3,7 @@ Contributors: HeroPlugins
 Tags: google maps, custom maps, easy maps, maps, responsive, markers, streetview, wp maps, wp google maps, map plugin, latitude, longitude, geocoder, location, shortcode, posts, clustering, marker geo mashup, marker icons, custom markers, custom icons, multiple maps, multiple markers
 Requires at least: 3.3
 Tested up to: 4.1
-Stable Tag: 2.0.7
+Stable Tag: 2.0.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
