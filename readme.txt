@@ -59,6 +59,9 @@ After creating a map, copy the generated shortcode from the Hero Maps Dashboard 
 
 == Changelog ==
 
+= 2.0.8 =
+* Minor bug fix for default developer custom field display
+
 = 2.0.7 =
 * Changes to prevent search engine indexing
 
