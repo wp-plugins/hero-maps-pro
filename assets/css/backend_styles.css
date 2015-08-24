@@ -10,23 +10,7 @@
 	height:167px;
 	background-image:url(../images/admin/promo_bg.png);
 	background-repeat:no-repeat;
-}
-.promo_holder .promo_btn{
-	margin:108px 0 0 24px;
-	text-align:center;
-}
-.promo_holder .promo_btn a{
-	display:table;
-	background-color:#DE525B;
-	border-radius:3px;
-	padding:0 40px;
-	outline:none !important;
-}
-.promo_holder .promo_btn img{
-	padding-top:7px;
-}
-.promo_holder .promo_btn a:hover{
-	background-color:#b42918;
+	cursor:pointer;
 }
 .hero_top_dashboard{
 	padding:10px 0;

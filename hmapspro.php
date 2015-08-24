@@ -5,7 +5,7 @@
 		Plugin Name: Hero Maps Pro
 		Plugin URI: http://www.heroplugins.com
 		Description: Easily create your own Google Maps with a simple drag and drop interface
-		Version: 2.0.8
+		Version: 2.0.9
 		Author: Hero Plugins
 		Author URI: http://www.heroplugins.com
 		License: GPLv2 or later
@@ -58,10 +58,10 @@
 		private $plugin_dir_name = 'hero-maps-pro';
 		private $plugin_friendly_name = 'Hero Maps Pro';
 		private $plugin_friendly_description = 'Easily create your own Google Maps with a simple drag and drop interface';
-		private $plugin_version = '2.0.8';
+		private $plugin_version = '2.0.9';
 		private $plugin_prefix = 'hmapspro_';
 		private $first_release = '2014-11-24';
-		private $last_update = '2015-04-02';
+		private $last_update = '2015-08-24';
 		private $api_version = '2.0.1';
 		
 		#CLASS VARS

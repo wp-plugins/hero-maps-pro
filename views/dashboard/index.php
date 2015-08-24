@@ -33,12 +33,7 @@
         
     </div>
     <div class="promo_expand">
-        <div class="promo_holder">
-        	<div class="promo_btn">
-                <a href="http://heroplugins.com" target="_blank">
-               		<img src="<?php echo $_GET['p']; ?>assets/images/admin/promo_btn_copy.png" />
-                </a>
-            </div>
+        <div class="promo_holder" onClick="window.open('http://heroplugins.com/plugin/hero-maps-premium/');">
         </div>
     </div>
 </div>

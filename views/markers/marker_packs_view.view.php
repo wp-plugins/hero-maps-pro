@@ -35,5 +35,27 @@
         
         <div id="marker_display_holder"></div>
         
+        <div style="clear:both; width:100%; height:20px; border-bottom:1px solid #efefef;"></div>
+        
+        <div class="hero_section_holder hero_grey size_14"> 
+            <div class="hero_col_12">
+				<div class="hero_col_4">
+                	<h2 class="size_14 hero_green">Download additional marker packs</h2>
+                    <p class="size_12 hero_grey">Many markers and colors available</p>
+                </div>
+                <div class="hero_col_8">
+                    <div style="float:right; margin-right:0;" onclick="window.open('http://heroplugins.com/downloads/');" class="hero_button_auto red_button rounded_3">Download Now</div>
+                </div>
+        	</div>
+            <div class="hero_col_12">
+            	<img id="additional_markers_img" width="100%">
+                <script type="text/javascript">
+					jQuery(function(){
+						jQuery('#additional_markers_img').attr('src', plugin_url +'assets/images/additional_markers.jpg');
+					});
+				</script>
+            </div>	
+        </div>
+        
 	</div>
 </div>
