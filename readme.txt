@@ -32,6 +32,15 @@ We have already added 18 marker icons, available in 13 great colours with more c
 * [Documentation](http://heroplugins.com/document/maps-documentation/?pid=52)
 * [heroplugins.com](http://heroplugins.com/)
 
+= Hero Maps Premium Now Available =
+For more features, please also have a look at [Hero Maps Premium] (http://heroplugins.com/plugin/hero-maps-premium/)
+* Lots of free marker packs and colors
+* Categorize markers in groups
+* Front end filtering
+* Lots of map color skins included
+* Lines and shapes can be drawn on any map
+* Export and import maps
+
 == Installation ==
 
 = From your WordPress dashboard =
