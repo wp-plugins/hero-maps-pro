@@ -39,7 +39,7 @@ We have already added 18 marker icons, available in 13 great colours with more c
 * Lots of map color skins included
 * Lines and shapes can be drawn on any map
 * Export and import maps
-* For more features, please check [Hero Maps Premium] (http://heroplugins.com/plugin/hero-maps-premium/)
+* For more features, please check [Hero Maps Premium](http://heroplugins.com/plugin/hero-maps-premium/)
 
 == Installation ==
 
