@@ -64,6 +64,7 @@ function hmapspro_inject_map(map_object,muid){
 	});
 	//initialise map
 	latlng = eval("new google.maps.LatLng("+ map_object.map_settings.map_center +");");
+    google.maps.controlStyle = 'azteca';
 	var map_options = {
 		zoom: map_object.map_advanced.map_load_zoom,
 		scrollwheel: map_object.map_settings.mouse_wheel_zoom,

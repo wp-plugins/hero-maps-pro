@@ -136,6 +136,7 @@ function load_gmap_script(){
 function initialise_map(){
 	//initialise map
 	defaultLatLon = eval("new google.maps.LatLng("+ map_object.map_settings.map_center +");");
+    google.maps.controlStyle = 'azteca';
 	var map_options = {
 		zoom: map_object.map_settings.rest_zoom,
 		scrollwheel: false,

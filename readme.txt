@@ -3,7 +3,7 @@ Contributors: HeroPlugins
 Tags: google maps, custom maps, easy maps, maps, responsive, markers, streetview, wp maps, wp google maps, map plugin, latitude, longitude, geocoder, location, shortcode, posts, clustering, marker geo mashup, marker icons, custom markers, custom icons, multiple maps, multiple markers
 Requires at least: 4.0
 Tested up to: 4.3
-Stable Tag: 2.0.9
+Stable Tag: 2.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -67,6 +67,9 @@ After creating a map, copy the generated shortcode from the Hero Maps Dashboard 
 5. **Marker Offset** - The ability to accurately position any shape marker on the map.
 
 == Changelog ==
+
+= 2.1.0 =
+* Updated map initialization to allow for v3.21 Google Maps JavaScript API controls
 
 = 2.0.9 =
 * Additional marker pack support and links
