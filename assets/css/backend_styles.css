@@ -1,0 +1,304 @@
+@charset "utf-8";
+
+/* BACK-END STYLES */
+
+/* DASHBOARD */
+.promo_expand{
+	width:350px !important;
+}
+.promo_holder{
+	height:167px;
+	background-image:url(../images/admin/promo_bg.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+.hero_top_dashboard{
+	padding:10px 0;
+}
+.hero_dashboard_logo{
+	padding:8px 0 10px 20px;
+}
+
+
+/* MAPS */
+.hero_maps_pro{
+	position:relative;
+}
+.hero_maps_pro .hero_top_sub_nav{
+	display:none; /* Hide sub-view navigation - replaced by map search */
+}
+.hero_top_dashboard{
+	padding-bottom:0;
+}
+.hero_custom_area{
+	text-align:right;
+	padding-top:10px;
+}
+.hero_maps_pro .hero_map_content_holder{
+	position:absolute;
+	top:80px;
+	width:100%;
+	height:400px;
+	background-color:#efefef;
+}
+.hero_maps_pro .hero_map_content_holder .hero_map_search_bar{
+	position:absolute;
+	top:0px;
+	width:100%;
+	height:40px;
+	background-color:#BDBDBD;
+	background-image:url(../images/admin/map_search.png);
+	background-repeat:no-repeat;
+	background-position:12px 9px;
+}
+.hero_maps_pro .hero_map_content_holder .hero_map_search_bar .location_search_input{
+	width:100%;
+	margin:6px 0 0 47px;
+	border:none;
+	background-color:transparent;
+	outline:none;
+	box-shadow:none;
+	color:#FFFFFF;
+	font-size:13px;
+}
+.hero_maps_pro .hero_map_content_holder .hero_map_search_bar .location_search_input::-webkit-input-placeholder{
+    color:#FFFFFF;
+}
+.hero_maps_pro .hero_map_content_holder .hero_map_search_bar .location_search_input:-moz-placeholder{
+   color:#FFFFFF;
+   opacity:1;
+}
+.hero_maps_pro .hero_map_content_holder .hero_map_search_bar .location_search_input::-moz-placeholder{
+   color:#FFFFFF;
+   opacity:;
+}
+.hero_maps_pro .hero_map_content_holder .hero_map_search_bar .location_search_input:-ms-input-placeholder{
+   color:#FFFFFF;
+}
+.pac-container{
+	margin:6px 0 0 -47px;
+	box-shadow:none;
+}
+.pac-container .pac-item{
+	padding-left:29px;
+}
+.hero_maps_pro .hero_map_content_holder #hero_map_main{
+	position:relative;
+	width:100%;
+	height:360px;
+	margin-top:40px;
+	background-color:#BDBDBD;
+}
+.hero_maps_pro .hero_map_content_holder .hero_map_marker_details{
+	position:absolute;
+	top:-210px;
+	width:100%;
+	height:250px;
+	background-color:#F5F5F5;
+}
+.hero_maps_pro .hero_map_content_holder .hero_map_marker_details .location_marker_holder{
+	float:left;
+}
+.hero_maps_pro .hero_map_content_holder .hero_map_marker_details .hero_section_holder{
+	padding:0 10px;
+	border:none;
+}
+.hero_maps_pro .hero_map_content_holder .hero_map_marker_details .hero_section_holder h2{
+	padding:5px 0 0 0;
+}
+.hero_maps_pro .hero_viewport{
+	position:relative;
+	width:100%;
+	padding-top:400px;
+}
+.hero_maps_pro .h_cust_component{
+	padding:10px 0;
+}
+.hero_maps_pro .comp_right_sep{
+	border-right:1px solid #DDD;
+	margin-right:20px;
+	padding-right:6px;
+}
+.hero_maps_pro .hero_switch_sml{
+	margin-top:4px;
+}
+.hero_maps_pro .hide_container{
+	clear:both;
+	width:100%;
+	height:0;
+	overflow:hidden;
+}
+.hero_maps_pro .button-pull-right{
+	float:right;
+}
+.hero_maps_pro .section_sep{
+	clear:both;
+	width:100%;
+	height:1px;
+	border-bottom: 1px solid #efefef;
+	padding:25px 0 0 0;
+	margin:0 0 15px 0;
+}
+.hero_maps_pro .marker_selection{
+	width:100%;
+	height:200px;
+	background-color:#EDEDED;
+	margin:0 0 20px 1px;
+}
+.hero_maps_pro .marker_selection select{
+	display:none;
+}
+.hero_maps_pro .marker_selection .marker_pack{
+	height:200px;
+	border-right:1px solid #DDDDDD;
+}
+.hero_maps_pro .marker_selection .marker_pack .selection_holder{
+	padding:77px 0 0 55px;
+}
+.hero_maps_pro .marker_selection .marker_selector{
+	padding:0 0 0 50px;
+}
+.hero_maps_pro .marker_selection .marker_selector .colour_choice{
+	padding:30px 0 0 0;
+}
+.hero_maps_pro .marker_selection .marker_selector .colour_choice p{
+	padding:6px 0 0 0;
+}
+.hero_maps_pro .marker_selection .marker_selector .drag_copy{
+	margin:15px 0 0 0;
+}
+.hero_maps_pro .marker_selection .marker_selector .marker_choice{
+	padding:5px 0 0 0;
+}
+.hero_maps_pro .marker_selection .marker_selector .marker_choice p{
+	padding:10px 0 0 0;
+}
+.hero_maps_pro .marker_selection .marker_selector .hero_preset_holder{
+	float:left;
+}
+.hero_maps_pro .marker_selection .marker_selector #marker_display_holder{
+	width:560px;
+	background-color:transparent;
+	padding:0 0 20px 0;
+}
+.hero_maps_pro .marker_selection .marker_selector #marker_display_holder .marker_img_container{
+	margin:0;
+	background-color:transparent;
+	width:auto;
+}
+.hero_maps_pro .marker_selection .marker_selector #marker_display_holder .marker_img_container img{
+	width:30px;
+	padding:5px 10px 0 0;
+}
+
+
+
+/* MARKERS */
+.custom_marker_img_holder{
+	width:80px;
+	min-height:75px;
+	margin:0px;
+	background-color:#EFEFEF;
+	text-align:center;
+	border-right:1px solid #FFFFFF;
+}
+.custom_marker_img_holder img{
+	width:40px;
+	padding:10px;
+}
+#marker_offset_container{
+	position:relative;
+	width:349px;
+	height:349px;
+	margin:30px auto 0px auto;
+	background-image:url(../images/offset_bg.png);
+	background-repeat:no-repeat;
+}
+#marker_offset_container .marker_border_container{
+	position:absolute;
+}
+#marker_display_holder{
+	display:table;
+	width:100%; /*855px*/
+	height:auto;
+	background-color:#efefef;
+	padding-bottom:16px;
+}
+#marker_display_holder .marker_img_container{
+	float:left;
+	width:80px;
+	text-align:center;
+	background-color:#FFFFFF;
+	margin:16px 0 0 16px;
+}
+#marker_display_holder .marker_img_container img{
+	width:40px;
+	padding:10px 0;
+}
+
+
+
+/* COLOUR PRESETS */
+.hero_preset_holder{
+	display:table;
+	float:right;
+	margin-right:-14px;
+}
+.hero_preset_color{
+	display:table;
+	float:left;
+	margin:0 10px 0 0;
+	padding:4px;
+	background-color:#FFF;
+	border:1px solid #efefef;
+	cursor:pointer;
+}
+.hero_preset_color:hover{
+	border:1px solid #CCC;
+}
+.hero_preset_active, .hero_preset_active:hover{
+	border:1px solid #999;
+	cursor:default;
+}
+.hero_preset_one{
+	width:12px;
+	height:24px;
+	float:left;
+}
+.hero_preset_two{
+	width:12px;
+	height:24px;
+	float:left;
+}
+
+
+/* SIDEBAR */
+.hero_add_new{
+	width:100%;
+	background-color:#DFDFDF;
+	overflow:hidden;
+	height:0px;
+}
+.hero_new_wrap{
+	width:90%;
+	margin:0 auto;
+	padding:10px 10px 5px;
+	display:table;
+	position:relative;
+}
+.hero_new_wrap input{
+	width:98% !important;
+	font-size:11px;
+}
+.hero_new_wrap .hero_sidebar_button{
+	padding:0px 5px;
+	width:auto;
+	display:table;
+}
+#add_new_map_btn{
+	position:absolute !important;
+	right:16px;
+	top:9px;
+	background-color:#DE525B;
+	border:1px solid #DC4551;
+}
